@@ -2,15 +2,15 @@ adj1 = [ "bene", "meglio", "traquilla", "molto bene", "normalmente", "fantastica
      "petalosamente", "d'incanto", "prudentemente", "degnamente", "con criterio"]
 adj2 = [ "male", "peggio", "molto male", "male, non mi parlare", "infelicemente", "rovinosamente", "goffamente", "ingiustamente"]
 
-print("Ciao, come va?")
+print("Ciao!!")
 print("Sto testando le mie conoscenze facendo alcune prove sul terminale e riutilizzando comandi "\
 "imparati anche l'anno scorso...")
 input()
 print("Come va la vita? :)")
 print()
-print("Puoi scegliere tra queste opzioni per rispondere: (oppure puoi personalizzarla)")
-print("Gruppo Positivo", "; ".join(adj1))
-print("Gruppo Negativo", "; ".join(adj2))
+print("Puoi scegliere tra queste opzioni per rispondere: (puoi anche personalizzarla)")
+print("Positivo:", "; ".join(adj1))
+print("Negativo:", "; ".join(adj2))
 print()
 vita = input("La tua risposta: ").lower()
 pos = vita in adj1
