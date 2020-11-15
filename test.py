@@ -1,23 +1,30 @@
-adj1 = [ "bene", "meglio", "molto bene", "fantasticamente", "petalosamente" ]
-adj2 = [ "male", "peggio", "molto male", "male, non mi parlare", "voglio morire", "affari miei" ]
+adj1 = [ "bene", "meglio", "traquilla", "molto bene", "normalmente", "fantasticamente", "a meraviglia", "egregiamente",\
+     "petalosamente", "d'incanto", "prudentemente", "degnamente", "con criterio"]
+adj2 = [ "male", "peggio", "molto male", "male, non mi parlare", "infelicemente", "rovinosamente", "goffamente", "ingiustamente"]
 
 print("Ciao, come va?")
 print("Sto testando le mie conoscenze facendo alcune prove sul terminale e riutilizzando comandi "\
-"imparati anche l'anno scorso :) ...")
+"imparati anche l'anno scorso...")
 input()
-print("Come va la vita?")
+print("Come va la vita? :)")
 print()
 print("Puoi scegliere tra queste opzioni per rispondere: (oppure puoi personalizzarla)")
-print("; ".join(adj1))
-print("; ".join(adj2))
+print("Gruppo Positivo", "; ".join(adj1))
+print("Gruppo Negativo", "; ".join(adj2))
 print()
-vita = input("La tua risposta: ")
+vita = input("La tua risposta: ").lower()
+pos = vita in adj1
+neg = vita in adj2
+if pos == True:
+    print("Ah quindi la tua vita prosegue", vita)
+    print("Sono contenta!!")
+elif neg == True:
+    print("Ah quindi la tua vita prosegue", vita)
+    print("Mi dispiace molto :( ")
+else:
+    print("Ah quindi", vita)
 print()
-print("Ah quindi la tua vita va", vita)
-print()
-print("Beh ciao, ci vediamo! <3")
-input()
-print("SCHERZAVO ASPETTA!!!")
-print("Ricordati che tutte le cose sono difficili prima di diventare facili, quindi "\
-    "continua a provare e non ti arrendere.")
-print("Conto su di te!")
+print("Ad ogni modo se va bene o male, non abbandonare mai la speranza.")
+print("E se non riesci in qualcosa ricordati che tutte le cose sono difficili prima di diventare facili, "\
+    "quindi continua a provare e non ti arrendere.")
+print("Conto su di te! <3")
