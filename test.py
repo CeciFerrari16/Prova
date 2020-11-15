@@ -1,0 +1,6 @@
+print("Ciao, come va?")
+print("Sto testando le mie conoscenze facendo alcune prove e utilizzando comandi imparati anche l'anno scorso")
+print(":)")
+vita = input("Come va la vita?")
+print("Ah quindi la tua vita va", vita, "mmh")
+print("Beh ci vediamo! <3")
