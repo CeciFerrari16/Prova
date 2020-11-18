@@ -1,6 +1,5 @@
-adj1 = [ "bene", "meglio", "traquilla", "molto bene", "normalmente", "fantasticamente", "a meraviglia", "egregiamente",\
-     "petalosamente", "d'incanto", "prudentemente", "degnamente", "con criterio"]
-adj2 = [ "male", "peggio", "molto male", "male, non mi parlare", "infelicemente", "rovinosamente", "goffamente", "ingiustamente"]
+adj1 = [ "bene", "meglio", "traquilla", "molto bene", "normalmente", "a meraviglia", "egregiamente", "d'incanto", "degnamente"]
+adj2 = [ "male", "peggio", "molto male", "male, non mi parlare", "infelicemente", "rovinosamente"]
 
 print("Ciao!!")
 print("Sto testando le mie conoscenze facendo alcune prove sul terminale e riutilizzando comandi "\
@@ -8,13 +7,14 @@ print("Sto testando le mie conoscenze facendo alcune prove sul terminale e riuti
 input()
 print("Come va la vita? :)")
 print()
-print("Puoi scegliere tra queste opzioni per rispondere: (puoi anche personalizzarla)")
+print("Puoi scegliere tra queste opzioni per rispondere: (oppure puoi personalizzarla)")
 print("Positivo:", "; ".join(adj1))
 print("Negativo:", "; ".join(adj2))
 print()
 vita = input("La tua risposta: ").lower()
 pos = vita in adj1
 neg = vita in adj2
+# dà una risposta True or False
 if pos == True:
     print("Ah quindi la tua vita prosegue", vita)
     print("Sono contenta!!")
