@@ -7,3 +7,5 @@ Per APRIRE il file digitare "python test.py" sul terminale e dare l'invio (tasto
 Se non riuscite a proseguire durante l'eseguzione del file probabilmente la soluzione è schiacciare il tasto INVIO. Questo perchè nel codice è presente il comando "input" che interrompe il programma e aspetta una risposta dall'utente.
 
 Grazie per l'attenzione!
+
+09/12/2020 Prove su un nuovo branch, fare un auto-merge e risolvere un 'conflict'
